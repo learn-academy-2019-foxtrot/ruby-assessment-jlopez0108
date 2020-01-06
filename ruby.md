@@ -7,7 +7,7 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer:
 
-  Researched answer:
+  Researched answer:JavaScript and Ruby are object-oriented, dynamic and general purpose scripting language which is interpreted rather than compile during runtime. 
 
 
 
@@ -15,15 +15,19 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer:
 
-  Researched answer:
+  Researched answer:A Ruby hash is a collection of unique keys and their values. They are similar to arrays but array use integer as an index and hash use any object type. 
 
 
 
 3. What is the testing framework used in Ruby? Describe the process of setting up the testing environment.
 
-  Your answer:
+  Your answer: RSPEC is a testing framework. 
 
-  Researched answer:
+  Researched answer:To set up your environment in AWS you will need to enter a few commands into the terminal. Setting up your files and running rspec car_spec.rb in your terminal will operate the same as a local development environment.
+Terminal Commands for AWS RSPEC Set Up
+
+sudo apt install ruby-rspec-core
+gem install rspec
 
 
 
@@ -31,15 +35,15 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer:
 
-  Researched answer:
+  Researched answer:1. has_many 2. belong_to 3.is_a
 
 
 
 5. What is an instance variable? How is it different from other variables in Ruby?
 
-  Your answer:
+  Your answer: an isntance varaible is a variable that belongs to that class. It cannot be called outside of the instance whereas ruby varuiable are able to be called outside of the class
 
-  Researched answer:
+  Researched answer: An instance variable has a name beginning with @ , and its scope is confined to whatever object self refers to. ... Instance variables of ruby do not need declaration. This implies a flexible structure of objects. In fact, each instance variable is dynamically appended to an object when it is first referenced.
 
 
 
@@ -51,11 +55,11 @@ Answer the following questions. First, without external resources. Challenge you
 
 Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Ruby:
 
-1)
+1) comment on first line indicated to shell instructions
 
-2)
+2) Symbols
 
-3)
+3) Been around since 1991
 
 
 7. STRETCH: What are blocks, procs, and lambdas?
@@ -63,3 +67,6 @@ Choose one of these resources and look through the material for 10-15 min. List 
   Your answer:
 
   Researched answer:
+  block:Ruby blocks are little anonymous functions that can be passed into methods.
+  procs:A Proc object is an encapsulation of a block of code, which can be stored in a local variable, passed to a method or another Proc, and can be called.
+  lambdas: They're anonymous, little functional spies sneaking into the rest of your code. Lambdas in Ruby are also objects, just like everything else! The last expression of a lambda is its return value, just like regular functions.
